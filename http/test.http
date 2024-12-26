@@ -1,0 +1,9 @@
+### Create Post
+POST http://localhost:8082/post
+Content-Type: application/json
+
+{
+  "username": "user1",
+  "password": "user1",
+  "content": "test"
+}
